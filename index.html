@@ -4,25 +4,29 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Guess my Number</title>
   </head>
   <body>
     <header>
       <h1>Guess my Number</h1>
-      <h2>between 1 and 20</h2>
-      <div>?</div>
+      <h2 class="one_and_twenty">between 1 and 20</h2>
+      <div class="corrent_number">?</div>
     </header>
     <main>
-      <section>
-        <input type="number" />
-        <button>check!</button>
+      <section class="section_check_number">
+        <input type="number" class="guess_number" />
+        <button class="btn check_button">check!</button>
       </section>
-      <section>
-        <button>play again</button>
+      <section class="section_play_again">
+        <button class="btn again_button">play again</button>
       </section>
-      <section>
-        <p>score: <span>20</span></p>
-        <p>High score: <span>0</span></p>
+      <section class="section_scoreboard">
+        <p class="Start_guessing">Start guessing</p>
+        <p class="label_score">score: <span class="score">20</span></p>
+        <p class="label_highscore">
+          High score: <span class="highscore">0</span>
+        </p>
       </section>
     </main>
 

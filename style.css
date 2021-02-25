@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  font-size: 95.5%;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  background-color: wheat;
+  text-align: center;
+  margin: 10rem;
+}
+/*  Layout  */
+
+header {
+  position: relative;
+}
+
+.Start_guessing {
+  color: red;
+}
